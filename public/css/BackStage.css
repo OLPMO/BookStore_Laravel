@@ -1,0 +1,41 @@
+nav .closeicon{
+	margin-right:10px;
+}
+.closeicon:nth-child(1){
+	background-color:red;
+}
+#mysidebar{
+	word-break:break-all;
+}
+#bloglistcont a{
+	margin-left:5px;
+}
+.firstrowpanel2{
+	margin-left:5px;
+}
+#FirTableRow{
+	margin-left:10px;
+}
+#MyPage{
+	margin-right:10px;
+}
+.glyphicon-remove{
+	margin:0 10px;
+}
+.glyphicon-edit{
+	margin:0 10px;
+}
+button[role='savechanges']{
+	display:none;
+}
+@media only screen and (min-width:768px){
+	#mysidebar{
+		position:absolute;
+		margin-top:51px;
+		width:18%;
+	}
+	#mymainpage {
+		margin-left:18%;
+	}
+}
+

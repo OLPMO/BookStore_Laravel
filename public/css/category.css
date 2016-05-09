@@ -1,0 +1,30 @@
+.childCpp{
+	display:none;
+}
+.childWeb{
+	display:none;
+}
+hr{
+	margin:10px 0;
+}
+.media-left img{
+	width:20rem;
+}
+.media-heading span{
+	float:right;
+	margin-right:10px;
+}
+.media-body a{
+	text-decoration:none !important;
+	color:black !important;
+}
+@media only screen and (max-width:768px){
+	.media-left img{
+		margin-top:1rem;
+		width:6rem;
+	}
+	.media-body p{
+		font-size:1.2rem;
+	}
+
+}

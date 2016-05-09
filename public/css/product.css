@@ -1,0 +1,13 @@
+.item img{
+	width:20rem;
+	margin:0 auto;
+}
+.container p{
+	word-wrap:break-word;
+}
+@media only screen and (max-width:768px){
+	.item img{
+		width:10rem;
+		
+	}	
+}

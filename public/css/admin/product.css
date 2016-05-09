@@ -1,0 +1,55 @@
+nav .closeicon{
+	margin-right:10px;
+}
+.closeicon:nth-child(1){
+	background-color:red;
+}
+#mysidebar{
+	word-break:break-all;
+}
+#bloglistcont a{
+	margin-left:5px;
+}
+.firstrowpanel2{
+	margin-left:5px;
+}
+#FirTableRow{
+	margin-left:10px;
+}
+#MyPage{
+	margin-right:10px;
+}
+td[role='pdtManage']{
+	width:5rem;
+}
+td[role='pdtManage'] .glyphicon{
+	clear:both;
+	margin:15px 5px;
+	font-size:large  ;
+}
+button[role='savechanges']{
+	display:none;
+}
+#FirTableRow td img{
+	height:8rem;
+}
+td[role='pdtSummary']{
+	width:50rem;
+}
+#editorSummary{
+	height:30rem;
+}
+#editorContent{
+	height:60rem;
+}
+@media only screen and (min-width:768px){
+	#mysidebar{
+		position:absolute;
+		margin-top:51px;
+		width:18%;
+	}
+	#mymainpage {
+		margin-left:18%;
+	}
+}
+
